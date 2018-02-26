@@ -1,10 +1,10 @@
 <?php
 /**
- * 2016.10.15 a new theme
+ * 2018.02.18 1.0.0
  * 
- * @package Lartist 
+ * @package Nice 
  * @author Kioto
- * @version 0.1beta
+ * @version 1.0.0
  * @link https://re.scue.us
  */
  
