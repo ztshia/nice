@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset="utf-8">
 <meta name="HandheldFriendly" content="True" />
@@ -8,8 +8,8 @@
 <!-- 使用url函数转换相关路径 -->
 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width:641px)" href="<?php $this->options->themeUrl('style.css'); ?>" />
 <link rel="stylesheet" type="text/css" media="only screen and (max-device-width:640px)" href="<?php $this->options->themeUrl('grid.css'); ?>" />
-<link rel="stylesheet" href="/plyr/dist/plyr.css">
 <link rel="stylesheet" type="text/css" href="/fancybox/jquery.fancybox.min.css">
+
 <!-- 通过自有函数输出HTML头部信息 -->
 <?php $this->header(); ?>
 <script>
@@ -43,7 +43,6 @@ var _hmt = _hmt || [];
 
 <script src="/jquery.min.js"></script>
 <script src="/fancybox/jquery.fancybox.min.js"></script>
-<script src="/plyr/dist/plyr.js"></script>
 
 <div class="night">
 <script type="text/javascript">

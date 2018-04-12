@@ -4,7 +4,7 @@
     <?php if ($this->have()): ?>
 	<?php while($this->next()): ?>
         <div class="post">
-			<h2 class="entry_title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
+			<div class="entry_title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></div>
 			<p class="entry_data">
 							<span><?php _e(' '); ?><?php $this->date('D, M jS, Y'); ?></span>
 
