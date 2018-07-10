@@ -12,15 +12,6 @@
 
 <!-- 通过自有函数输出HTML头部信息 -->
 <?php $this->header(); ?>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?03f6b7594bce8a0cd9e3a2c3ba30dab1";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 </head>
 <!-- end #header -->
 <body>
